@@ -1,0 +1,70 @@
+/* External CSS File */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Table styles */
+.array-table {
+    width: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.arr-table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding-bottom: 25px;
+}
+
+.arr-table td {
+    width: 75px;
+    height: 50px;
+    background-color: green;  /* Green background for the cells */
+    color: white;             /* White text color */
+    text-align: center;       /* Center the text inside each cell */
+    border: 1px solid white; /* White border around each cell */
+    font-size: 18px;          /* Font size for the text */
+}
+
+.array-table td {
+    width: 50px;
+    height: 50px;
+    background-color: green;  /* Green background for the cells */
+    color: white;             /* White text color */
+    text-align: center;       /* Center the text inside each cell */
+    border: 1px solid white; /* White border around each cell */
+    font-size: 18px;          /* Font size for the text */
+}
+
+/* Gradient Button Style */
+button {
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ff6f61, #ff8c00);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff8c00, #ff6f61);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
